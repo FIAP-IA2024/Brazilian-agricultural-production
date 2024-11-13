@@ -8,7 +8,7 @@ JOIN
 JOIN 
     tbl_ano a ON p.pro_ano_id = a.ano_id
 WHERE 
-    c.cul_nome = 'cafe' -- ou 'cana_de_acucar' para a cultura desejada
+    c.cul_nome = 'cafe'  -- ou 'cana_de_acucar' para a cultura desejada
 GROUP BY 
     a.ano_ano
 ORDER BY 

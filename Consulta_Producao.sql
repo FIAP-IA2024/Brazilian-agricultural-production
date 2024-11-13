@@ -10,7 +10,9 @@ JOIN
 JOIN 
     tbl_ano a ON p.pro_ano_id = a.ano_id
 WHERE 
-    c.cul_nome = 'cafe' -- ou 'cana_de_acucar', dependendo da cultura desejada
-    AND a.ano_ano = 2022 -- Substitua pelo ano específico desejado
+    c.cul_nome = 'cafe'  -- ou 'cana_de_acucar', conforme a cultura desejada
+    AND a.ano_ano = 2001 -- Substitua pelo ano específico desejado
 GROUP BY 
-    e.est_nome;
+    e.est_nome
+ORDER BY 
+    producao_total DESC;
