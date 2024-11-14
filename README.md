@@ -54,7 +54,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-1. Clone o repositório e abra o arquivo `src/brazilian_agriculture.sql`.
+1. Clone o repositório e abra o arquivo `src/script.sql`.
 2. Configure um banco de dados SQL (preferencialmente Oracle) e execute o script para criar as tabelas e popular com os dados iniciais.
 3. As consultas específicas podem ser encontradas na pasta `Consultas` e incluem exemplos de análise como:
    - Produção total de uma cultura por estado em um determinado ano.
